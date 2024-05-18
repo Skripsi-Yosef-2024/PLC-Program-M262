@@ -1,0 +1,27 @@
+Administrator
+M262DTETI2024
+
+
+--- List MAC - IP Addr 
+-- PLC
+00-80-F4-69-52-B (PLC M262)
+(192.168.3.254)
+
+-- HMI
+192.168.3.253
+
+-- Actuator
+0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED (Remote AC modbus)
+(192.168.3.100)
+0xDE, 0xAD, 0xBE, 0xEF, 0xFF, 0x02 (Push Motor Driver Modbus)
+(192.168.3.101)
+
+-- Sensor
+D4-AD-20-7C-AA-F6 (Sensor THM-30HD)
+(192.168.3.200)
+0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0x01 (Sensor Pressure MS5611 OT)
+(192.168.3.201)
+0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0x02 (Sensor Pressure MS5611 OT Outdoor)
+(192.168.3.202)
+0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0x03 (Sensor DHT22 AHU)
+(192.168.3.203)
